@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* 全体 */
+* {
+  box-sizing: border-box;
+}
+/* この下から記述 */
+
+body {
+  font-weight: bold;
+  text-align: center;
+  width: 500px;
+}
+.game {
+  font-family: "Yu Gothic", cursive;
+  margin: 30px auto;
+  font-size: 30px;
+}
+
+.imgArea {
+  margin: 30px 30px;
+}
+
+.com_hand,
+.hand {
+  width: 100px;
+  height: 100px;
+}
+.random_hand {
+  display: flex;
+  justify-content: center;
+  margin: 30px 30px;
+}
+
+#gb {
+  font-family: "Comic Sans", cursive;
+  font-size: 30px;
+  padding: 20px 100px;
+}
